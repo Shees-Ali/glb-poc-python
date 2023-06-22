@@ -8,7 +8,7 @@ tri_scene = tri_scene.apply_transform(
     trimesh.transformations.random_rotation_matrix())
 
 # Trimesh uses pyglet window to whow the 3D Model
-tri_scene.show()
+# tri_scene.show()
 
 # Using the builtin function to get image bytes
 png = tri_scene.save_image()
